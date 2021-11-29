@@ -1,0 +1,267 @@
+<!DOCTYPE html><!--  Criado por Franklin Costa no dia 14/09/2021  !-->
+<html lang="pt-br">
+    <head>
+       <meta charset="utf-8"/>
+       <meta name="viewport" content="width=device-width,initial-scale=1.0"><!-- Visualizar a tela em 100%  !-->
+       <link rel="stylesheet" href="index.css" type="text/css" >
+       <script type="text/javascript" src="javascrip.js"></script>
+       <title> ODS9 </title>
+       <!--Gráfico em javascrit google charts-->
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <script type="text/javascript">
+         google.charts.load("current", {packages:["corechart"]});
+         google.charts.setOnLoadCallback(drawChart);
+       </script> 
+        <!--Gráfico em javascrit google charts-->
+        
+        <!--TESTE de busca da Pagina-->
+
+    </head>
+    <body >
+        <div  height: 1200px;> <!--Pai 1-->
+            <header class="logo">
+                <img class="imgLogo" src=".\imagens\logo.png">                    
+                <input type="text" name="busca" id="busca" placeholder="Faça sua Busca">
+               <!-- <button type="submit" class="buscar" onclick="alert('Teste com sucesso')">Busca</button>-->
+                <button type="submit" class="buscar" id="buscar">Busca</button>
+              
+            </header>
+
+            <div height: 60px;> <!--Pai 1.2-->
+                <nav>
+                    <ul class="menu">
+                        <li><a href=".\index.html">Inicio</a></li>
+                        <li><a href="quemsomos/quemsomos.html">Quem Somos</a></li>
+                        <li><a >Energia Renovavel</a>
+                            <ul>
+                                <li><a href="solar/solar.html">Solar</a></li>
+                                <li><a href="eolica/eolica.html">Eolica</a></li>
+                                <li><a href="maremotriz/maremotriz.html">Maremotriz</a></li>
+                                <li><a href="biomassa/biomassa.html">Biomassa</a></li>
+                                <li><a href="hidrica/hidrica.html">Hidrica</a></li>
+                                <li><a href="geotermica/geotermica.html">Geotermica</a></li>
+                            </ul>            
+                        </li>
+                        <li><a href="causas/causas.html">Causas</a></li>
+                        <li><a href="contribua.html">Contribua</a></li>
+                        <li><a href="forum.html">Forum</a></li>
+                        <li><a href="#rodape">Contato</a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="principal"> <!--Pai 1.3-->
+                <div> <!--Pai 1.3.1-->
+                    <img class="imgPrincipal" src="imagens/principal.jpeg">                    
+                </div><div class="titulo"> <!--Pai 1.3.2-->
+                    <h1 class="tituloPrincial">Ajude o(a) ODS9 - Indústria, Inovação e Infraestrutura</h1>
+                    <h2>É hora de mudanças</h2>
+                    <p>Nosso objetivo é ser um(a) Movimento pela sustentabilidade impactante liderado(a) por membros da comunidade. Somos inspirados pela crença de que as pessoas podem moldar uma sociedade onde possam alcançar seu verdadeiro potencial.</p>
+                </div>
+            </div>
+            <div> <!--Pai 1.4-->
+                <img class="imgMovimento" src=".\imagens\movimento.jpg"> 
+                
+                <div class="textMovimento">
+                    
+                    <h2><strong>Movimento pela Sustentabilidade</strong> </h2>
+                    <br>
+                    <p><strong>(a) Movimento pela sustentabilidade Inspirado(a) pelos movimentos sociais do passado, o(a) ODS9 - Indústria, Inovação e Infraestrutura começou em 2000, quando alguns membros da comunidade de São Paulo decidiram se juntar para fazer a diferença. Rapidamente, este momento singular evoluiu para um movimento com vários apoiantes. Nosso(a) Movimento pela sustentabilidade desafia o status quo, responsabilizando nossos líderes e lutando por soluções que transformarão a sociedade.</strong></p>
+                </div>
+            </div>
+
+            <div class="sub1Titulo"> <!--Pai 1.5-->
+                <div >
+                    <h2>Panorama da energia renovável no Brasil e no mundo</h2>
+                    <br>
+
+                </div>
+                <div>
+                    <p>Em termos de capacidade instalada de energia renovável, o Brasil ocupa o terceiro lugar do ranking mundial, com 141.932 MW. Estamos atrás apenas da China, com incríveis 788.916 MW, e dos Estados Unidos, com 282.656 MW.</p>
+                    <br>
+                    <p>Esses números são relativos ao ano de 2019 e foram coletados pela Agência Internacional para Energias Renováveis (IRENA). Logo abaixo conseguimos ver um panorama mundial da capacidade instalada de energia renovável:</p>
+                    <br>
+                </div>
+                
+            <div>
+                <h2>Rank Mundial</h2>
+                <table>
+                    <colgroup>
+                        <col class="classificao">
+                        <col class="pais">
+                        <col class="capacidade">
+                    </colgroup>
+                    <tr>
+                        <th>Classifição</th>
+                        <th>País</th>
+                        <th>Capacidade</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>China</td>
+                        <td>788.916 MW</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Estados Unidos</td>
+                        <td>283.656 MW</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Brasil</td>
+                        <td>141.932 MW</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>India</td>
+                        <td>133.018 MW</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Alemanha</td>
+                        <td>130.831 MW</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Japão</td>
+                        <td>119.355 MW</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Canadá</td>
+                        <td>101.171 MW</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Itália</td>
+                        <td>59.255 MW</td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td>Espanha</td>
+                        <td>57.929 MW</td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>França</td>
+                        <td>54.655 MW</td>
+                    </tr>                    
+                </table>
+            </div>    
+                <br>
+
+                <p>Como vimos na tabela, ainda estamos a uma distância considerável da China. No entanto, o que chama a atenção é que já estamos sendo seguidos de perto pela Alemanha, um país consideravelmente menor e, embora mais desenvolvido, com muito menos recursos naturais.</p>
+
+                <br>
+
+                <p>Esse é um indicativo de que o Brasil ainda está muito longe de explorar todo seu potencial. E isso foi comprovado pelo Relatório da Situação Global das Renováveis de 2019, do Programa das Nações Unidas para o Meio Ambiente (PNUMA).</p>
+
+                <br>
+
+                <p>De acordo com esse relatório, o investimento global em energia verde ultrapassou US$ 2,6 trilhões na última década. Ainda segundo o PNUMA, cinco países se destacaram no investimento em soluções para reduzir os efeitos da mudança climática:</p>
+
+                <br>
+
+                <ul class="listPais">
+                    <li>China</li>
+                    <li>Índia</li>
+                    <li>Estados Unidos</li>
+                    <li>Japão</li>
+                    <li>Espanha</li>
+                    
+                </ul>
+
+                <br>
+
+                <p>Você deve estar se perguntando o que está faltando para nosso país, com potencial reconhecido mundialmente, também se destacar entre os que mais investem em fontes limpas. Vamos tentar responder analisando alguns dados sobre a energia renovável no Brasil.</p>
+
+                <br>
+                
+                <h2>Energia no Brasil mais utilizado</h2>
+
+                <br>
+
+                <p>A energia mais utilizada no Brasil, considerando tanto as renováveis como as não-renováveis, é a hidráulica. Sua participação na matriz energética nacional atinge mais de 60% do total, como indica o gráfico abaixo:</p>
+            
+                <div id="grafico_3d" ></div>
+                
+                <p>Fonte: Hud, plataforma de comunicação e gestão de energia exclusiva para clientes Esfera.</p>
+
+                <div>
+                    <p>Devido ao seu enorme potencial hídrico, o Brasil vem historicamente focando seus investimentos em hidrelétricas. De acordo com a Câmara de Comercialização de Energia Elétrica (CCEE), temos 875 hidrelétricas, centrais geradoras hidrelétricas e pequenas centrais hidrelétricas no país</p>
+                    <br>
+                    <p>É justamente essa enorme quantidade de hidrelétricas que coloca o Brasil no Top 3 do ranking mundial de capacidade instalada de energia renovável. No entanto, é bom ressaltar que, apesar de a energia hidráulica ser limpa, a construção das hidrelétricas causa uma série de impactos ambientais e sociais.</p>
+                    <br>
+                    <p>O mais indicado seria o Brasil diversificar sua matriz renovável e investir mais para criar usinas de energia solar, eólica e de biomassa. Ainda que também causem repercussões na natureza, normalmente essas ocorrem apenas no local em que são produzidas e são facilmente controladas.</p>
+                    <br>
+                </div>
+                <div>
+                    <h2>Principais tipos de Energia Renováveis</h2>
+                    <br>
+                    <div class="containerTipos">
+                        <div class="classItem">
+                            <h2>Energia Solar</h2>
+                            <img class="imgSolar" src="imagens/solarEditado.jpg">
+                            <p>A energia solar é gerada por meio da radiação do sol, fonte inesgotável, que é captada em painéis fotovoltaicos ou por meio de um sistema heliotérmico.</p>
+                            <div class="divBtn">
+                                <button type="submit" class="btn" id="solar">Saiba Mais</button>
+                            </div>
+                        </div>
+                        <div class="classItem">
+                            <h2>Energia Eólica</h2>
+                            <img class="imgEolica" src="imagens/eolicaEditado.jpg">
+                            <p>A energia eólica é considerada uma fonte de energia limpa, renovável e sustentável.Centrais de energia eólica são conhecidas como fazendas eólicas</p>
+                            <div class="divBtn">
+                               <button type="submit" class="btn" id="eolica">Saiba Mais</button>
+                            </div>
+                        </div>
+                        <div class="classItem">
+                            <h2>Energia Hidráulica</h2>
+                            <img class="imgHidraulica" src="imagens/hidraulicaEditado.jpg">
+                            <p>A energia hidrelétrica é a principal do Brasil. Inclusive, a maior geradora de energia elétrica do país é a usina hidrelétrica Itaipu Binacional</p>
+                            <div class="divBtn">
+                                <button type="submit" class="btn" id="hidrica">Saiba Mais</button>
+                            </div>
+                        </div>
+                        <div class="classItem">
+                            <h2>Energia Maremotriz</h2>
+                            <img class="imgMaremotriz" src="imagens/maremotrizEditado.jpg">
+                            <p>O aproveitamento da energia das marés envolve aprisionamento de água na maré alta e, utiliza a vazão no período onde a maré em baixa .</p>
+                            <div class="divBtn">
+                                <button type="submit" class="btn" id="maremotriz">Saiba Mais</button>
+                            </div>
+                        </div>
+                        <div class="classItem">
+                            <h2>Energia Biomassa</h2>
+                            <img class="imgBiomassa" src="imagens/biomassaEditado.jpg">
+                            <p>A energia de biomassa, em linhas gerais, é gerada por meio da queima de matérias orgânicas, utilizando como o bagaço da cana-de-açúcar,</p>
+                            <div class="divBtn">
+                                <button type="submit" class="btn" id="biomassa">Saiba Mais</button>
+                            </div>
+                        </div>
+                        <div class="classItem">
+                            <h2>Energia Geotérmica</h2>
+                            <img class="imgGeotermica" src="imagens/geotermicaEditado.jpg">
+                            <p>No Brasil, a energia geotérmica é utilizada apenas na forma de água aquecida, como no caso dos parques termais</p>
+                            <div class="divBtn">
+                                <button type="submit" class="btn" id="geotermica" link="geotermica/geotermica.html">Saiba Mais</button>                            </div>
+                        </div>
+                
+                </div>
+
+            </div>           
+
+        </div>
+    
+    </body>
+
+    <footer style="height: 100px;">
+        <div id="rodape">
+            Contato
+        </div>
+        
+       </footer>
+</html>

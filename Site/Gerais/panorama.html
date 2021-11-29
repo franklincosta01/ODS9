@@ -1,0 +1,275 @@
+<!DOCTYPE html><!--  Criado por Franklin Costa no dia 14/09/2021  !-->
+<html lang="pt-br">
+    <head>
+       <meta charset="utf-8"/>
+       <meta name="viewport" content="width=device-width,initial-scale=1.0"><!-- Visualizar a tela em 100%  !-->
+       <link rel="stylesheet" href="index.css" type="text/css" >
+       <script type="text/javascript" src="javascrip.js"></script>
+	    <title> ODS9 </title>
+        <!--Gráfico em javascrit google charts-->
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <script type="text/javascript">
+         google.charts.load("current", {packages:["corechart"]});
+         google.charts.setOnLoadCallback(drawChart);
+       </script>
+
+       
+    </head>
+    <body >
+        <div height: 1200px;>
+            <!--Pai 1-->
+            <header class="logo">
+                <img class="imgLogo" src="../imagens/logo.png">
+                <input type="text" name="busca" id="busca" placeholder="Faça sua Busca">
+                <!-- <button type="submit" class="buscar" onclick="alert('Teste com sucesso')">Busca</button>-->
+                <button type="submit" class="buscar" id="buscar">Busca</button>
+    
+            </header>       
+    
+            <div height: 60px;>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../quemsomos/quemsomos.html">Quem Somos</a></li>
+                        <li><a href="../causas/causas.html">Causas</a></li>
+                        <li><a href="../contribua/contribua.html">Contribua</a></li>
+                        <li><a >Energia Renovavel</a>
+                            <ul>
+                                <li><a href="../solar/solar.html">Solar</a></li>
+                                <li><a href="../eolica/eolica.html">Eolica</a></li>
+                                <li><a href="../maremotriz/maremotriz.html">Maremotriz</a></li>
+                                <li><a href="../biomassa/biomassa.html">Biomassa</a></li>
+                                <li><a href="../hidrica/hidrica.html">Hidrica</a></li>
+                                <li><a href="../geotermica/geotermica.html">Geotermica</a></li>
+                            </ul>            
+                        </li>
+                        <li><a href="../home/forum/forum.html">Forum</a></li>
+                        <li><a href="#rodape">Contato</a></li>
+
+                    </ul>
+                </nav>
+            
+                <div class="divTitulo">
+                    <h1>Panorama da energia renovável no Brasil e no mundo</h1>
+                    <br>
+
+                </div>
+                <div class="divCorpo">
+                    <p>Em termos de capacidade instalada de energia renovável, o Brasil ocupa o terceiro lugar do ranking mundial, com 141.932 MW. Estamos atrás apenas da China, com incríveis 788.916 MW, e dos Estados Unidos, com 282.656 MW.</p>
+                    <br>
+                    <p>Esses números são relativos ao ano de 2019 e foram coletados pela Agência Internacional para Energias Renováveis (IRENA). Logo abaixo conseguimos ver um panorama mundial da capacidade instalada de energia renovável:</p>
+                    <br>
+                </div>
+                
+            <div class="divCorpo">
+                <h2>Rank Mundial</h2>
+                <table>
+                    <colgroup>
+                        <col class="classificao">
+                        <col class="pais">
+                        <col class="capacidade">
+                    </colgroup>
+                    <tr>
+                        <th>Classifição</th>
+                        <th>País</th>
+                        <th>Capacidade</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>China</td>
+                        <td>788.916 MW</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Estados Unidos</td>
+                        <td>283.656 MW</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Brasil</td>
+                        <td>141.932 MW</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>India</td>
+                        <td>133.018 MW</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Alemanha</td>
+                        <td>130.831 MW</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Japão</td>
+                        <td>119.355 MW</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Canadá</td>
+                        <td>101.171 MW</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Itália</td>
+                        <td>59.255 MW</td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td>Espanha</td>
+                        <td>57.929 MW</td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>França</td>
+                        <td>54.655 MW</td>
+                    </tr>                    
+                </table>
+            </div>
+            <div class="divCorpo">    
+                <br>
+
+                <p>Como vimos na tabela, ainda estamos a uma distância considerável da China. No entanto, o que chama a atenção é que já estamos sendo seguidos de perto pela Alemanha, um país consideravelmente menor e, embora mais desenvolvido, com muito menos recursos naturais.</p>
+
+                <br>
+
+                <p>Esse é um indicativo de que o Brasil ainda está muito longe de explorar todo seu potencial. E isso foi comprovado pelo Relatório da Situação Global das Renováveis de 2019, do Programa das Nações Unidas para o Meio Ambiente (PNUMA).</p>
+
+                <br>
+
+                <p>De acordo com esse relatório, o investimento global em energia verde ultrapassou US$ 2,6 trilhões na última década. Ainda segundo o PNUMA, cinco países se destacaram no investimento em soluções para reduzir os efeitos da mudança climática:</p>
+
+                <br>
+
+                <ul class="listPais">
+                    <li>China</li>
+                    <li>Índia</li>
+                    <li>Estados Unidos</li>
+                    <li>Japão</li>
+                    <li>Espanha</li>
+                    
+                </ul>
+
+                <br>
+
+                <p>Você deve estar se perguntando o que está faltando para nosso país, com potencial reconhecido mundialmente, também se destacar entre os que mais investem em fontes limpas. Vamos tentar responder analisando alguns dados sobre a energia renovável no Brasil.</p>
+
+                <br>
+                
+                <h2>Energia no Brasil mais utilizado</h2>
+
+                <br>
+
+                <p>A energia mais utilizada no Brasil, considerando tanto as renováveis como as não-renováveis, é a hidráulica. Sua participação na matriz energética nacional atinge mais de 60% do total, como indica o gráfico abaixo:</p>
+            
+                <div id="grafico_3d" ></div>
+                
+                <p>Fonte: Hud, plataforma de comunicação e gestão de energia exclusiva para clientes Esfera.</p>
+
+                <div>
+                    <p>Devido ao seu enorme potencial hídrico, o Brasil vem historicamente focando seus investimentos em hidrelétricas. De acordo com a Câmara de Comercialização de Energia Elétrica (CCEE), temos 875 hidrelétricas, centrais geradoras hidrelétricas e pequenas centrais hidrelétricas no país</p>
+                    <br>
+                    <p>É justamente essa enorme quantidade de hidrelétricas que coloca o Brasil no Top 3 do ranking mundial de capacidade instalada de energia renovável. No entanto, é bom ressaltar que, apesar de a energia hidráulica ser limpa, a construção das hidrelétricas causa uma série de impactos ambientais e sociais.</p>
+                    <br>
+                    <p>O mais indicado seria o Brasil diversificar sua matriz renovável e investir mais para criar usinas de energia solar, eólica e de biomassa. Ainda que também causem repercussões na natureza, normalmente essas ocorrem apenas no local em que são produzidas e são facilmente controladas.</p>
+                    <br>
+                </div>
+            
+                
+            </div>
+        
+        </div>
+
+    </div>
+        
+    </body>
+
+    <footer>
+        <div class="container-footer-all">
+        
+            <div class="container-body" id="rodape">
+
+                <div class="colum1">
+                    <h1>Mas informação do movimento pela sustentabilidade</h1>
+
+                    <p>(a) Movimento pela sustentabilidade Inspirado(a) pelos movimentos sociais do 
+                        passado, o(a) ODS9 - Indústria, Inovação e Infraestrutura começou em 2000, quando 
+                        alguns membros da comunidade de São Paulo decidiram se juntar para fazer a diferença.
+                        Rapidamente, este momento singular evoluiu para um movimento com vários apoiantes.
+                        Nosso(a) Movimento pela sustentabilidade desafia o status quo, responsabilizando 
+                        nossos líderes e lutando por soluções que transformarão a sociedade</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociais</h1>
+
+                    <div class="row">
+                        <img src="../imagens/icone/facebook.png">
+                        <label>Siga-nos no Facebook</label>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="../imagens/icone/twitter.png">
+                        <label>Siga-nos no Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="../imagens/icone/instagram.png">
+                        <label>Siga-nos no Instagram</label>
+                    </div>
+                    <div class="row">
+                        <img src="../imagens/icone/google-plus.png">
+                        <label>Siga-nos no Google Plus</label>
+                    </div>
+                    <div class="row">
+                        <img src="../imagens/icone/pinterest.png">
+                        <label>Siga-nos no Pinteres</label>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Dados de Contato</h1>
+
+                    <div class="row2">
+                        <img src="../imagens/icone/house.png">
+                        <label>Fatec Osasco</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../imagens/icone/smartphone.png">
+                        <label>11-XXXXX-XXXX</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../imagens/icone/contact.png">
+                        <label>eng.frankxx@gmail.com</label>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+            <div class="footer">
+                 <div class="copyright">
+                     © 2017 Todos os direitos reservados | <a href="">Franklin Solution</a>
+                 </div>
+
+                 <div class="information">
+                     <a href="">Informação do Movimento</a> | <a href="">Privacidade e Política</a> | <a href="">
+                        Termos e Condições</a>
+                 </div>
+             </div>
+
+         </div>
+        
+    </footer>
+</html>

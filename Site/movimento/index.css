@@ -1,0 +1,273 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-family: 'OpenSans-Regular';
+color:#484848;
+font-size: 12px;
+background-color: #e9e2e21c;
+}
+
+.logo{
+
+height: 90px;
+
+}
+
+.imgLogo{
+height: 80px;
+width: 80px;
+margin: 5px;
+}
+
+.buscar{
+float: right;
+margin-top: 45px;
+margin-right: 30px;
+}
+
+#busca{
+
+position: absolute;
+margin-top: 45px;
+margin-left: 1010px;
+}
+    
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+font-size: 16px;
+margin-left: 5px;
+display: inline-flex;
+
+
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+width: 190px;
+}
+
+.menu li a{color:#333; text-decoration:none; padding:10px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+position:absolute;
+top:35px;
+left:0;
+background-color:#fff;
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:1px solid #c0c0c0;
+display:block;
+width:190px;
+}
+
+.imgPrincipal{
+display: inline-flex;
+width: 800px;
+height: 500px;
+border: 1px solid black;
+/*float: left;*/
+ 
+margin-top: 10px;   
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.titulo{
+display: flexbox;
+width: 450px;
+height: 500px ;
+float: right;
+margin-top: 10px;   
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.principal{
+    display: inline-flex;
+    width: 100%;
+    flex-direction:row;
+}
+
+h1{
+ text-align: center;
+ font-size: 60px;
+}
+
+.imgMovimento{
+    width: 1348px;
+    height: 500px;
+}
+
+.textMovimento {
+    position: absolute;
+    font-family:'Arial Narrow Bold';
+    font-size: 26px;
+    color:#fff;
+    text-align: center;
+    top: 730px;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sub1Titulo{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-indent: 2.5em;
+   
+}
+
+h2{
+    text-align: center;
+    line-height: 50px;
+}
+  
+.listPais{
+    position: relative;
+    margin-left: 80px;
+    
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+   
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+
+#grafico_3d{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.containerTipos{
+    /* background-color: red; */
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:10px;
+}
+/* 
+.containerTipos > div{
+    background: blueviolet;
+    
+} */
+
+/* .imgSolar{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black ;
+}
+
+.imgEolica{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black ;
+}
+
+.imgHidraulica{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.imgMaremotriz{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black ;
+}
+
+.imgBiomassa{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black ;
+}
+
+.imgGeotermica{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black ;
+} */
+.containerTipos  p{
+    width: 390px;
+    word-wrap: break-word;
+    /* text-align: center; */
+    padding-right: 7px; 
+    padding-left: 7px;
+    
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    color:black;
+    border-radius: 32px;
+    cursor: pointer;
+    border: 0;
+    font-size: 80%;
+    font-weight: 500px;
+    margin-bottom: 16px 0;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(7, 150, 245), rgb(158, 210, 245));
+}
+
+.classItem {
+    text-align: center;
+}
+
+.divBtn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 390px;
+}
+
